@@ -26,6 +26,6 @@ int main() {
     pthread_create(&pthread, NULL, myTurn, NULL);
     //myTurn();
     yourTurn();
-    pthread_join(pthread, NULL);
+    //pthread_join(pthread, NULL);
     return 0;
 }
