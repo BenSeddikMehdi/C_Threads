@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "pthread/pthread.h"
+#include <pthread.h>
 
 int main() {
     pthread_t pthread;
