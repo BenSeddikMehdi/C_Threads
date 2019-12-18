@@ -3,4 +3,4 @@ project(C_Threads C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(C_Threads main.c twoThreads.h Safety_Speed_Issues_Threads.h)
+add_executable(C_Threads main.c twoThreads.h Safety_Speed.h)
