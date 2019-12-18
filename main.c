@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include "twoThreads.h"
 #include "Safety_Speed.h"
-#include <pthread.h>
 
 int main() {
     clock_t begin = clock();
